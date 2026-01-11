@@ -1,5 +1,6 @@
 # Chicago Air Quality Monitoring System — Version 2
-
+[Project Link](https://chicagoairqualityprediction.vercel.app/)
+(It can take upto 40s to connect to mongodb since it is deployed on free instance of vercel)
 This repository contains the updated, **end-to-end implementation** of a Chicago air quality monitoring and prediction system.  
 The project was originally built as a frontend-only visualization tool (V1).  
 **Version 2** expands it into a full **data engineering and machine learning pipeline**.
