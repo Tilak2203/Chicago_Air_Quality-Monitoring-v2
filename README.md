@@ -15,21 +15,11 @@ The project was originally built as a frontend-only visualization tool (V1).
 The earlier version (V1) consisted of:
 
 - A React application
-- Direct API calls to fetch PM2.5 readings
+- Direct API calls to fetch parameter readings
 - Basic data visualization
 - No automated data pipeline
-- No backend
 - No stored history
-- No machine learning predictions
-
-### Limitations of V1:
-
-- Data was fetched only at runtime
-- No long-term storage or historical dataset
-- No ETL or cleaning
-- No prediction capability
-- The entire system existed only on the frontend
-
+- 
 ---
 
 ## 🚀 Overview of V2 (Current Version)
@@ -39,13 +29,12 @@ It separates ingestion, processing, storage, prediction, API serving, and fronte
 
 ### Key Changes:
 
-- ✅ Added **Airflow ETL pipeline** for scheduled data ingestion and cleaning
-- ✅ Introduced **MongoDB Atlas** as the primary database
-- ✅ Added a **Python backend** to serve data and predictions through REST APIs
-- ✅ Implemented a **machine learning model (RandomForest)** for PM2.5 forecasting
-- ✅ Rebuilt the frontend to use backend APIs instead of direct external calls
-- ✅ Centralized timestamp handling and preprocessing
-- ✅ Organized the project into a **modular, production-style structure**
+- Added **Airflow ETL pipeline** for scheduled data ingestion and cleaning
+- **MongoDB Atlas** as the primary database
+- Implemented a **machine learning model (RandomForest)** for PM2.5 forecasting
+- Rebuilt the frontend to use backend APIs instead of direct external calls
+- Centralized timestamp handling and preprocessing
+- Organized the project into a **modular, production-style structure**
 
 ---
 
@@ -81,7 +70,7 @@ Chicago-Air-Quality-Monitoring-v2/
 
 The system now follows a **straightforward pipeline**:
 
-1. **Airflow** fetches PM2.5 data on a schedule, cleans it, normalizes timestamps, removes duplicates, and loads it into MongoDB.
+1. **Airflow** fetches air quality parameters data on a schedule, cleans it, normalizes timestamps, removes duplicates, and loads it into MongoDB.
 
 2. **MongoDB Atlas** stores historical and latest readings.
 
@@ -118,8 +107,6 @@ pip install -r requirements.txt
 python app.py
 ```
 
-**Backend runs at:** `http://localhost:5000`
-
 ### 3. Start Frontend
 
 ```bash
@@ -127,8 +114,6 @@ cd Chicago-air-quality-vercel
 npm install
 npm start
 ```
-
-**Frontend runs at:** `http://localhost:3000`
 
 ---
 
@@ -151,22 +136,12 @@ npm start
 
 This version provides a more **realistic demonstration** of data engineering and machine learning concepts:
 
-- ✔️ Automated, repeatable ingestion
-- ✔️ Centralized cloud database
-- ✔️ A reusable API layer
-- ✔️ Prediction workflows
-- ✔️ A clean separation between ETL, backend, and frontend
+- Automated, repeatable ingestion
+- Centralized cloud database
+- A reusable API layer
+- Prediction workflows
+- A clean separation between ETL, backend, and frontend
 
 The system is **maintainable, extendable, and reflects real-world architecture**.
 
 ---
-
-## 📝 License
-
-This project is open-source and available for educational purposes.
-
----
-
-## 👤 Author
-
-**Tilak2203**
