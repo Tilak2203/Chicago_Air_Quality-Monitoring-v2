@@ -3,7 +3,6 @@
 This repository contains the updated, **end-to-end implementation** of a Chicago air quality monitoring and prediction system.  
 The project was originally built as a frontend-only visualization tool (V1).  
 **Version 2** expands it into a full **data engineering and machine learning pipeline**.
-Project Link (It can take upto 40s to connect to mongodb since it is deployed on free instance of vercel)
 ---
 
 ## 📊 Overview of V1 (Previous Version)
