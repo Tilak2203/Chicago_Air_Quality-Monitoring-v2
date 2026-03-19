@@ -132,7 +132,8 @@ The system is **maintainable, extendable, and reflects real-world architecture**
 ---
 <img width="1782" height="958" alt="Screenshot 2026-01-12 at 11 47 48 AM" src="https://github.com/user-attachments/assets/a7ada997-8e00-4911-91b6-04474c0b0513" />
 
-
+---
+ 
 <img width="3124" height="1412" alt="image" src="https://github.com/user-attachments/assets/c667ee2d-3a10-4f67-ab37-c2a38dd3c118" />
 
 
