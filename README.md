@@ -117,21 +117,6 @@ npm start
 
 ---
 
-## 📊 Version Comparison
-
-| Feature | V1 | V2 |
-|---------|----|----|
-| **Frontend** | Yes | Yes (updated) |
-| **ETL Pipeline** | No | Yes (Airflow) |
-| **Database** | No | Yes (MongoDB Atlas) |
-| **Backend API** | No | Yes |
-| **Machine Learning** | No | Yes |
-| **Historical Storage** | No | Yes |
-| **Automated Scheduling** | No | Yes |
-| **Timestamp Cleaning** | Basic | Robust |
-
----
-
 ## 🎯 Purpose of V2
 
 This version provides a more **realistic demonstration** of data engineering and machine learning concepts:
