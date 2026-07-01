@@ -1,4 +1,4 @@
-# Chicago Air Quality Monitoring System — Version 2
+# Chicago Air Quality Monitoring System - Version 2
 [Project Link](https://chicagoairqualityprediction.vercel.app/)
 (It can take upto 40s to connect to mongodb since it is deployed on free instance of vercel)
 
