@@ -19,7 +19,6 @@ The earlier version (V1) consisted of:
 - Basic data visualization
 - No automated data pipeline
 - No stored history
-- 
 ---
 
 ## 🚀 Overview of V2 (Current Version)
